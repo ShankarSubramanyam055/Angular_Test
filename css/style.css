@@ -1,0 +1,282 @@
+/******************** OTHER CSS begins *******************/
+html, body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#444444;
+	font-size:14px;
+	background:#222;
+}
+#main, .main {
+	margin:0 auto;
+	width:100%;
+	max-width:800px;
+	background:#ffffff;
+	overflow:hidden;
+}
+.menubar {
+	overflow:hidden;
+}
+.menubar .col-1 {
+	padding:30px 10px;
+	width:20%;
+	max-width:160px;
+	float:left;
+}
+
+.menubar .col-2 {
+	width:60%;
+	max-width:440px;
+	float:left;
+}
+
+.menubar .col-2 ul {
+	margin:0;
+	padding:0;
+}
+.menubar .col-2 li {
+	list-style-type:none;
+	display:inline-block;
+}
+.menubar .col-2 li a {
+	padding:40px 10px;
+	background:#fff;
+	color:#333;
+	font-weight:bold;
+	display:inline-block;
+}
+.menubar .col-2 li a:hover, .menubar .col-2 li a.active {
+	color:#999;
+	text-decoration:none;
+}
+.menubar .col-1 .btn {
+	padding:10px 15px;
+	background:#8a5fc0;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	display:inline-block;
+}
+.menubar .col-1 .btn:hover{
+	background:#d976b7;
+	text-decoration:none;
+}
+
+.section-1{
+	padding:15px 65px;
+	width:100%;
+	max-width:800px;
+	box-sizing:borsder-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	overflow:hidden;
+}
+
+#banner{
+	width:100%;
+	max-width:800px;
+	height:333px;
+	background:url(../images/banner.png) center center no-repeat;
+}
+
+
+.two-cols{
+	width:50%;
+	max-width:400px;
+	float:left;
+}
+
+.one-third{
+	width:33%;
+	max-width:264px;
+	float:left;
+}
+
+.two-third{
+	width:67%;
+	max-width:536px;
+	float:left;
+}
+
+.one-third img{
+	width:100%;
+	height:auto;
+	max-width:255px;
+	max-height:305px;
+	display:block;
+}
+
+.full_row, .full-col{
+	width:100%;
+	overflow:hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h3{
+	font-size:28px;
+}
+
+h4{
+	font-size:22px;
+}
+
+p{
+	margin:0 0 15px;
+}
+
+.bold-font{
+	font-weight:bold;
+}
+
+.grey-font{
+	color:#999;
+}
+
+.align-center{
+	text-align:center;
+}
+
+.align-right{
+	text-align:right;
+}
+
+.align-justify{
+	text-align:justify;
+}
+
+ul.service_list{
+	margin:0;
+	padding:0;
+}
+
+.service_list li{
+	list-style-type:none;
+}
+
+.service_list li a{
+	margin:5px;
+	padding:20px;
+	background:#efefef;
+	color:#444;
+	font-size:12px;
+	display:block;
+	text-decoration:none;
+}
+
+.service_list li a:hover, .service_list li a.active{
+	background:#8a5fbd;
+	color:#fff;
+
+}
+
+.service_list li .head{
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+}
+
+.font_12{
+	font-size:12px;
+}
+
+.inner_40{
+	padding:40px;
+	overflow:hidden;
+}
+
+.auto-margin{
+	margin:0 auto;
+	display:block;
+}
+
+.margin_bottom-15{
+	margin-bottom:15px;
+}
+
+.img-resize{
+	width:100%;
+	height:auto;
+	max-width:800px;
+}
+
+#contact_form{
+	width:100%;
+	overflow:hidden;
+}
+
+#contact_form input[type="text"], select{
+	margin:0 5px 10px;
+	padding:8px;
+	width:97%;
+	background:#eee;
+	border:1px solid #eee;
+	color:#444;
+	font-size:12px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	display:block;
+}
+
+#contact_form input[type="phone"], #contact_form input[type="email"]{
+	margin:0 5px 10px;
+	padding:8px;
+	width:46.75%;
+	background:#eee;
+	border:1px solid #eee;
+	color:#444;
+	font-size:12px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	display:inline-block;
+}
+
+#contact_form textarea{
+	margin:0 5px 10px;
+	padding:8px;
+	width:97%;
+	height:80px;
+	background:#eee;
+	border:1px solid #eee;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#444;
+	font-size:12px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	display:block;
+}
+
+#contact_form input[type="submit"]{
+	margin:0 5px;
+	padding:8px 15px;
+	background:#9e65bd;
+	border:1px solid #9e65bd;
+	color:#fff;
+	font-size:12px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+#contact_form input:hover[type="submit"]{
+	background:#444;
+	border:1px solid #444;
+}
+
+.pink-font{
+	color:#cc5283;
+}
+
+.blue-font{
+	color: #796193;
+}
+/******************** OTHER CSS ends *******************/
